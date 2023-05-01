@@ -1,0 +1,96 @@
+:root {
+  --font-roboto: 'Roboto', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+  --nav-background: #1a2236;
+  --main-background: #1c1a19;
+  --font-white: #fff;
+  --font-orange: #ff6b00;
+  --font-round: 'Crete Round', serif;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+body {
+  font-family: var(--font-inter);
+  font-style: normal;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+
+nav {
+  display: flex;
+  margin-right: 20px;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  padding-top: 30px;
+  color: #1a2236;
+}
+
+.intro_para {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  color: #1a2236;
+  font-family: 'Poppins';
+  font-size: 23px;
+  padding-top: 30px;
+}
+
+.rectangle_20 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 50px;
+  left: 16px;
+  top: 390px;
+  padding-top: 120px;
+}
+
+.Start-collaboration {
+  position: absolute;
+  width: 203.68px;
+  height: 26.47px;
+  left: 58px;
+  top: 402px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 25px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.illustration-header {
+  background-image: url(./images/image_geometry_2.svg);
+  width: 100%;
+  position: absolute;
+  height: 160px;
+  left: 0px;
+  top: 590px;
+}
